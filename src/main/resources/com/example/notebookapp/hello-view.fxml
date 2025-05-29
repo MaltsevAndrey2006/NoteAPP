@@ -1,0 +1,1867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="600.0" style="-fx-background-color: mintcream;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.notebookapp.HelloController">
+   <children>
+      <ScrollPane layoutX="-13.0" layoutY="-14.0" prefHeight="616.0" prefWidth="611.0">
+         <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="627.0" prefWidth="594.0">
+               <children>
+                  <AnchorPane layoutX="-3.0" layoutY="16.0" nodeOrientation="LEFT_TO_RIGHT" opacity="0.35" prefHeight="43.0" prefWidth="608.0" style="-fx-background-color: gray;">
+                     <cursor>
+                        <Cursor fx:constant="DISAPPEAR" />
+                     </cursor>
+                     <effect>
+                        <Glow />
+                     </effect>
+                     <children>
+                      <Button fx:id="saveButton" alignment="CENTER" layoutX="36.0" layoutY="4.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="143.0" text="Сохранить файл">
+                           <font>
+                              <Font name="ArtifaktElement-Black" size="14.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <ButtonBar prefHeight="40.0" prefWidth="94.0" />
+                  <ButtonBar prefHeight="40.0" prefWidth="0.0" />
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="94.0" layoutY="79.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 1 ">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group1" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_1_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group1">
+                           <graphic>
+                              <Text fx:id="Text_1_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="96.0" layoutY="133.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 2">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group2" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_2_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group2">
+                           <graphic>
+                              <Text fx:id="Text_2_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="96.0" layoutY="181.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 3">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group3" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_3_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group3">
+                           <graphic>
+                              <Text fx:id="Text_3_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="95.0" layoutY="230.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 4">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group4" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_4_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group4">
+                           <graphic>
+                              <Text fx:id="Text_4_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="96.0" layoutY="278.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 5">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group5" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_5_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group5">
+                           <graphic>
+                              <Text fx:id="Text_5_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="96.0" layoutY="326.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 6">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group6" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_6_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group6">
+                           <graphic>
+                              <Text fx:id="Text_6_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="98.0" layoutY="380.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 7">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group7" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_7_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group7">
+                           <graphic>
+                              <Text fx:id="Text_7_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="98.0" layoutY="428.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 8">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group8" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_8_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group8">
+                           <graphic>
+                              <Text fx:id="Text_8_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="97.0" layoutY="477.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 9">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group9" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_9_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group9">
+                           <graphic>
+                              <Text fx:id="Text_9_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="98.0" layoutY="525.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 10">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group10" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_10_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group10">
+                           <graphic>
+                              <Text fx:id="Text_10_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="352.0" layoutY="79.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 11">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group11" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_11_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group11">
+                           <graphic>
+                              <Text fx:id="Text_11_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group11">
+                           <graphic>
+
+                              <Text fx:id="Text_11_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="354.0" layoutY="133.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 12">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group12" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_12_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group12">
+                           <graphic>
+                              <Text fx:id="Text_12_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="354.0" layoutY="181.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 13">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group13" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_13_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group13">
+                           <graphic>
+                              <Text fx:id="Text_13_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="353.0" layoutY="230.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 14">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group14" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_14_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group14">
+                           <graphic>
+                              <Text fx:id="Text_14_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="354.0" layoutY="278.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 15">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group15" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_15_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group15">
+                           <graphic>
+                              <Text fx:id="Text_15_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="354.0" layoutY="326.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 16">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group16" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_16_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group16">
+                           <graphic>
+                              <Text fx:id="Text_16_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="356.0" layoutY="380.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 17">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group17" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_17_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group17">
+                           <graphic>
+                              <Text fx:id="Text_17_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="356.0" layoutY="428.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 18">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group18" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_18_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group18">
+                           <graphic>
+                              <Text fx:id="Text_18_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="355.0" layoutY="477.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 19">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group19" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_19_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group19">
+                           <graphic>
+                              <Text fx:id="Text_19_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+                  <MenuButton accessibleRole="CHECK_BOX" cache="true" contentDisplay="CENTER" layoutX="356.0" layoutY="525.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Пункт 20">
+                     <font>
+                        <Font name="ArtifaktElement-Black" size="17.0" />
+                     </font>
+                     <items>
+                        <RadioMenuItem mnemonicParsing="false" text="1">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Group20" />
+                           </toggleGroup>
+                           <graphic>
+                              <Text fx:id="Text_20_1" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic>
+                        </RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="2" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_2" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="3" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_3" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="4" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_4" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="5" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_5" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="6" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_6" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="7" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_7" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="8" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_8" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="9" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_9" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="10" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_10" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="11" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_11" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="12" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_12" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="13" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_13" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="14" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_14" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="15" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_15" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="16" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_16" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="17" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_17" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="18" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_18" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="19" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_19" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                        <RadioMenuItem mnemonicParsing="false" text="20" toggleGroup="$Group20">
+                           <graphic>
+                              <Text fx:id="Text_20_20" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                           </graphic></RadioMenuItem>
+                     </items>
+                  </MenuButton>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
